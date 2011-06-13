@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		321814CA132012BC00B9F3AA /* ClientCert.p12 in Resources */ = {isa = PBXBuildFile; fileRef = 321814C9132012BC00B9F3AA /* ClientCert.p12 */; };
+		3275D64A1314FBE7000BAD2C /* RUBWebsiteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275D6491314FBE7000BAD2C /* RUBWebsiteLoader.m */; };
+		3275D64D1314FCC4000BAD2C /* RUBWebViewWebsiteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3275D64C1314FCC4000BAD2C /* RUBWebViewWebsiteLoader.m */; };
+		32877DB9131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 32877DB8131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.m */; };
+		32877DBD1316A818004AC3CA /* RUBCFNetworkWebsiteLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 32877DBC1316A817004AC3CA /* RUBCFNetworkWebsiteLoader.m */; };
+		32877DBF1316A888004AC3CA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32877DBE1316A888004AC3CA /* Security.framework */; };
+		32877DC11316A89A004AC3CA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32877DC01316A89A004AC3CA /* CFNetwork.framework */; };
+		32F456EF131420AB007C7B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456EE131420AB007C7B91 /* UIKit.framework */; };
+		32F456F1131420AB007C7B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456F0131420AB007C7B91 /* Foundation.framework */; };
+		32F456F3131420AB007C7B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456F2131420AB007C7B91 /* CoreGraphics.framework */; };
+		32F456F9131420AB007C7B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F456F7131420AB007C7B91 /* InfoPlist.strings */; };
+		32F456FC131420AB007C7B91 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F456FB131420AB007C7B91 /* main.m */; };
+		32F456FF131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F456FE131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.m */; };
+		32F45702131420AB007C7B91 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F45700131420AB007C7B91 /* MainWindow.xib */; };
+		32F45705131420AB007C7B91 /* RUBWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F45704131420AB007C7B91 /* RUBWebBrowserViewController.m */; };
+		32F45708131420AB007C7B91 /* RUBWebBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32F45706131420AB007C7B91 /* RUBWebBrowserViewController.xib */; };
+		32F4570F131420AB007C7B91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456EE131420AB007C7B91 /* UIKit.framework */; };
+		32F45710131420AB007C7B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456F0131420AB007C7B91 /* Foundation.framework */; };
+		32F45711131420AB007C7B91 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32F456F2131420AB007C7B91 /* CoreGraphics.framework */; };
+		32F45719131420AB007C7B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32F45717131420AB007C7B91 /* InfoPlist.strings */; };
+		32F4571C131420AB007C7B91 /* SecureNetworkingDemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 32F4571B131420AB007C7B91 /* SecureNetworkingDemoTests.h */; };
+		32F4571E131420AB007C7B91 /* SecureNetworkingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32F4571D131420AB007C7B91 /* SecureNetworkingDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32F45712131420AB007C7B91 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32F456E1131420AB007C7B91 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32F456E9131420AB007C7B91;
+			remoteInfo = SecureNetworkingDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		321814C9132012BC00B9F3AA /* ClientCert.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClientCert.p12; sourceTree = "<group>"; };
+		321814CC132018ED00B9F3AA /* RUBWebsiteLoader_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBWebsiteLoader_Internal.h; sourceTree = "<group>"; };
+		3275D6481314FBE7000BAD2C /* RUBWebsiteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBWebsiteLoader.h; sourceTree = "<group>"; };
+		3275D6491314FBE7000BAD2C /* RUBWebsiteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBWebsiteLoader.m; sourceTree = "<group>"; };
+		3275D64B1314FCC3000BAD2C /* RUBWebViewWebsiteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBWebViewWebsiteLoader.h; sourceTree = "<group>"; };
+		3275D64C1314FCC4000BAD2C /* RUBWebViewWebsiteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBWebViewWebsiteLoader.m; sourceTree = "<group>"; };
+		32877DB7131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBURLLoadingSystemWebsiteLoader.h; sourceTree = "<group>"; };
+		32877DB8131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBURLLoadingSystemWebsiteLoader.m; sourceTree = "<group>"; };
+		32877DBB1316A817004AC3CA /* RUBCFNetworkWebsiteLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RUBCFNetworkWebsiteLoader.h; sourceTree = "<group>"; };
+		32877DBC1316A817004AC3CA /* RUBCFNetworkWebsiteLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RUBCFNetworkWebsiteLoader.m; sourceTree = "<group>"; };
+		32877DBE1316A888004AC3CA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		32877DC01316A89A004AC3CA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		32F456EA131420AB007C7B91 /* SecureNetworkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureNetworkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F456EE131420AB007C7B91 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32F456F0131420AB007C7B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32F456F2131420AB007C7B91 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32F456F6131420AB007C7B91 /* SecureNetworkingDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureNetworkingDemo-Info.plist"; sourceTree = "<group>"; };
+		32F456F8131420AB007C7B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32F456FA131420AB007C7B91 /* SecureNetworkingDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureNetworkingDemo-Prefix.pch"; sourceTree = "<group>"; };
+		32F456FB131420AB007C7B91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32F456FD131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUBSecureNetworkingDemoAppDelegate.h; sourceTree = "<group>"; };
+		32F456FE131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUBSecureNetworkingDemoAppDelegate.m; sourceTree = "<group>"; };
+		32F45701131420AB007C7B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		32F45703131420AB007C7B91 /* RUBWebBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RUBWebBrowserViewController.h; sourceTree = "<group>"; };
+		32F45704131420AB007C7B91 /* RUBWebBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RUBWebBrowserViewController.m; sourceTree = "<group>"; };
+		32F45707131420AB007C7B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RUBWebBrowserViewController.xib; sourceTree = "<group>"; };
+		32F4570E131420AB007C7B91 /* SecureNetworkingDemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecureNetworkingDemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32F45716131420AB007C7B91 /* SecureNetworkingDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureNetworkingDemoTests-Info.plist"; sourceTree = "<group>"; };
+		32F45718131420AB007C7B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32F4571A131420AB007C7B91 /* SecureNetworkingDemoTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureNetworkingDemoTests-Prefix.pch"; sourceTree = "<group>"; };
+		32F4571B131420AB007C7B91 /* SecureNetworkingDemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecureNetworkingDemoTests.h; sourceTree = "<group>"; };
+		32F4571D131420AB007C7B91 /* SecureNetworkingDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecureNetworkingDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32F456E7131420AB007C7B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F456F1131420AB007C7B91 /* Foundation.framework in Frameworks */,
+				32F456EF131420AB007C7B91 /* UIKit.framework in Frameworks */,
+				32F456F3131420AB007C7B91 /* CoreGraphics.framework in Frameworks */,
+				32877DBF1316A888004AC3CA /* Security.framework in Frameworks */,
+				32877DC11316A89A004AC3CA /* CFNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F4570A131420AB007C7B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F4570F131420AB007C7B91 /* UIKit.framework in Frameworks */,
+				32F45710131420AB007C7B91 /* Foundation.framework in Frameworks */,
+				32F45711131420AB007C7B91 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32F456DF131420AB007C7B91 = {
+			isa = PBXGroup;
+			children = (
+				32F456F4131420AB007C7B91 /* SecureNetworkingDemo */,
+				32F45714131420AB007C7B91 /* SecureNetworkingDemoTests */,
+				32F456ED131420AB007C7B91 /* Frameworks */,
+				32F456EB131420AB007C7B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32F456EB131420AB007C7B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32F456EA131420AB007C7B91 /* SecureNetworkingDemo.app */,
+				32F4570E131420AB007C7B91 /* SecureNetworkingDemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32F456ED131420AB007C7B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32F456F0131420AB007C7B91 /* Foundation.framework */,
+				32F456EE131420AB007C7B91 /* UIKit.framework */,
+				32F456F2131420AB007C7B91 /* CoreGraphics.framework */,
+				32877DBE1316A888004AC3CA /* Security.framework */,
+				32877DC01316A89A004AC3CA /* CFNetwork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32F456F4131420AB007C7B91 /* SecureNetworkingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				32F45731131421CF007C7B91 /* Classes */,
+				32F4573213142415007C7B91 /* Resources */,
+				32F456F5131420AB007C7B91 /* Supporting Files */,
+			);
+			path = SecureNetworkingDemo;
+			sourceTree = "<group>";
+		};
+		32F456F5131420AB007C7B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F456F6131420AB007C7B91 /* SecureNetworkingDemo-Info.plist */,
+				32F456F7131420AB007C7B91 /* InfoPlist.strings */,
+				32F456FA131420AB007C7B91 /* SecureNetworkingDemo-Prefix.pch */,
+				32F456FB131420AB007C7B91 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F45714131420AB007C7B91 /* SecureNetworkingDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				32F4573313142448007C7B91 /* Classes */,
+				32F45715131420AB007C7B91 /* Supporting Files */,
+			);
+			path = SecureNetworkingDemoTests;
+			sourceTree = "<group>";
+		};
+		32F45715131420AB007C7B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32F45716131420AB007C7B91 /* SecureNetworkingDemoTests-Info.plist */,
+				32F45717131420AB007C7B91 /* InfoPlist.strings */,
+				32F4571A131420AB007C7B91 /* SecureNetworkingDemoTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32F45731131421CF007C7B91 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32F456FD131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.h */,
+				32F456FE131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.m */,
+				32F45703131420AB007C7B91 /* RUBWebBrowserViewController.h */,
+				32F45704131420AB007C7B91 /* RUBWebBrowserViewController.m */,
+				3275D6481314FBE7000BAD2C /* RUBWebsiteLoader.h */,
+				321814CC132018ED00B9F3AA /* RUBWebsiteLoader_Internal.h */,
+				3275D6491314FBE7000BAD2C /* RUBWebsiteLoader.m */,
+				3275D64B1314FCC3000BAD2C /* RUBWebViewWebsiteLoader.h */,
+				3275D64C1314FCC4000BAD2C /* RUBWebViewWebsiteLoader.m */,
+				32877DB7131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.h */,
+				32877DB8131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.m */,
+				32877DBB1316A817004AC3CA /* RUBCFNetworkWebsiteLoader.h */,
+				32877DBC1316A817004AC3CA /* RUBCFNetworkWebsiteLoader.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		32F4573213142415007C7B91 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				32F45700131420AB007C7B91 /* MainWindow.xib */,
+				32F45706131420AB007C7B91 /* RUBWebBrowserViewController.xib */,
+				321814C9132012BC00B9F3AA /* ClientCert.p12 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		32F4573313142448007C7B91 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				32F4571B131420AB007C7B91 /* SecureNetworkingDemoTests.h */,
+				32F4571D131420AB007C7B91 /* SecureNetworkingDemoTests.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32F456E9131420AB007C7B91 /* SecureNetworkingDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F45721131420AB007C7B91 /* Build configuration list for PBXNativeTarget "SecureNetworkingDemo" */;
+			buildPhases = (
+				32F456E6131420AB007C7B91 /* Sources */,
+				32F456E7131420AB007C7B91 /* Frameworks */,
+				32F456E8131420AB007C7B91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureNetworkingDemo;
+			productName = SecureNetworkingDemo;
+			productReference = 32F456EA131420AB007C7B91 /* SecureNetworkingDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32F4570D131420AB007C7B91 /* SecureNetworkingDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32F45724131420AB007C7B91 /* Build configuration list for PBXNativeTarget "SecureNetworkingDemoTests" */;
+			buildPhases = (
+				32F45709131420AB007C7B91 /* Sources */,
+				32F4570A131420AB007C7B91 /* Frameworks */,
+				32F4570B131420AB007C7B91 /* Resources */,
+				32F4570C131420AB007C7B91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32F45713131420AB007C7B91 /* PBXTargetDependency */,
+			);
+			name = SecureNetworkingDemoTests;
+			productName = SecureNetworkingDemoTests;
+			productReference = 32F4570E131420AB007C7B91 /* SecureNetworkingDemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32F456E1131420AB007C7B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "adesso mobile solutions GmbH";
+			};
+			buildConfigurationList = 32F456E4131420AB007C7B91 /* Build configuration list for PBXProject "SecureNetworkingDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32F456DF131420AB007C7B91;
+			productRefGroup = 32F456EB131420AB007C7B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32F456E9131420AB007C7B91 /* SecureNetworkingDemo */,
+				32F4570D131420AB007C7B91 /* SecureNetworkingDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32F456E8131420AB007C7B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F456F9131420AB007C7B91 /* InfoPlist.strings in Resources */,
+				32F45702131420AB007C7B91 /* MainWindow.xib in Resources */,
+				32F45708131420AB007C7B91 /* RUBWebBrowserViewController.xib in Resources */,
+				321814CA132012BC00B9F3AA /* ClientCert.p12 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F4570B131420AB007C7B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F45719131420AB007C7B91 /* InfoPlist.strings in Resources */,
+				32F4571C131420AB007C7B91 /* SecureNetworkingDemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32F4570C131420AB007C7B91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32F456E6131420AB007C7B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F456FC131420AB007C7B91 /* main.m in Sources */,
+				32F456FF131420AB007C7B91 /* RUBSecureNetworkingDemoAppDelegate.m in Sources */,
+				32F45705131420AB007C7B91 /* RUBWebBrowserViewController.m in Sources */,
+				3275D64A1314FBE7000BAD2C /* RUBWebsiteLoader.m in Sources */,
+				3275D64D1314FCC4000BAD2C /* RUBWebViewWebsiteLoader.m in Sources */,
+				32877DB9131679CE004AC3CA /* RUBURLLoadingSystemWebsiteLoader.m in Sources */,
+				32877DBD1316A818004AC3CA /* RUBCFNetworkWebsiteLoader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32F45709131420AB007C7B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32F4571E131420AB007C7B91 /* SecureNetworkingDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32F45713131420AB007C7B91 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32F456E9131420AB007C7B91 /* SecureNetworkingDemo */;
+			targetProxy = 32F45712131420AB007C7B91 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32F456F7131420AB007C7B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F456F8131420AB007C7B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32F45700131420AB007C7B91 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F45701131420AB007C7B91 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		32F45706131420AB007C7B91 /* RUBWebBrowserViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F45707131420AB007C7B91 /* en */,
+			);
+			name = RUBWebBrowserViewController.xib;
+			sourceTree = "<group>";
+		};
+		32F45717131420AB007C7B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32F45718131420AB007C7B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32F4571F131420AB007C7B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32F45720131420AB007C7B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		32F45722131420AB007C7B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureNetworkingDemo/SecureNetworkingDemo-Prefix.pch";
+				INFOPLIST_FILE = "SecureNetworkingDemo/SecureNetworkingDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32F45723131420AB007C7B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureNetworkingDemo/SecureNetworkingDemo-Prefix.pch";
+				INFOPLIST_FILE = "SecureNetworkingDemo/SecureNetworkingDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32F45725131420AB007C7B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureNetworkingDemo.app/SecureNetworkingDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureNetworkingDemoTests/SecureNetworkingDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "SecureNetworkingDemoTests/SecureNetworkingDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		32F45726131420AB007C7B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SecureNetworkingDemo.app/SecureNetworkingDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureNetworkingDemoTests/SecureNetworkingDemoTests-Prefix.pch";
+				INFOPLIST_FILE = "SecureNetworkingDemoTests/SecureNetworkingDemoTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32F456E4131420AB007C7B91 /* Build configuration list for PBXProject "SecureNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F4571F131420AB007C7B91 /* Debug */,
+				32F45720131420AB007C7B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F45721131420AB007C7B91 /* Build configuration list for PBXNativeTarget "SecureNetworkingDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F45722131420AB007C7B91 /* Debug */,
+				32F45723131420AB007C7B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32F45724131420AB007C7B91 /* Build configuration list for PBXNativeTarget "SecureNetworkingDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32F45725131420AB007C7B91 /* Debug */,
+				32F45726131420AB007C7B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32F456E1131420AB007C7B91 /* Project object */;
+}
