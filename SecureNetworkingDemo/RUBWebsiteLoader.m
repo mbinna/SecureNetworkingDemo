@@ -158,14 +158,8 @@
                                           (trustResult == kSecTrustResultUnspecified));
 		if (!trusted)
         {
-            CFDataRef exceptionsData = SecTrustCopyExceptions(serverTrust);
-            if (!SecTrustSetExceptions(serverTrust, exceptionsData))
-            {
-                // Exceptions not set
-            }
-            
-            if (exceptionsData)
-                CFRelease(exceptionsData);
+            // TODO: Modify verification critieria (e.g., set the time used for verification) or let the user
+            // either confirm or cancel the request
         }
         
         NSURLCredential *credential = [NSURLCredential credentialForTrust:serverTrust];
